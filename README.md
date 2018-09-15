@@ -52,7 +52,7 @@ Load the required config files:
 	roslaunch launch/config.launch
 
 
-Start the ATALS core node (Taking the TOA messages and performing TDOA sample assembly):
+Start the ATLAS core node (Taking the TOA messages and performing TDOA sample assembly):
 
 	roslaunch launch/core.launch
 

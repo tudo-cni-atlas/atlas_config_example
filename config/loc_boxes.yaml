@@ -1,0 +1,40 @@
+# Flw config with 1 sync anchor and 8 passive anchors
+
+# extended kalman filter configuration
+# choose if 2D or 3D by setting dimensions to either 2 or 3
+ekf:
+    dimensions: 2
+    processNoise: 0.8
+    measurementVariance: 0.001
+    initialInterval: 0.04
+    initialVarianceDelta: 100.0
+    initialVariance: 100.0
+    initialPosition: [0, 0, 0.45]
+    outlierThreshold: 20.0
+    outlierThresholdDelta: 0.5
+    imu: False
+    sqd: False
+    minX: -8
+    maxX: 17
+    minY: -8
+    maxY: 8
+    minZ: 0.0
+    maxZ: 6.0
+
+orientationOffset: [0.0, 0.0, 2.0] # Tait-Bryan Euler angle in rad
+
+whitelist:
+    - cafe060009092122 # Low Power Tag 1
+    - cafe06000b0b1009 # Low Power Tag 2
+    - cafe06000b0b2f09 # Low Power Tag 3
+    - cafe06000b0b2408 # Low Power Tag 4
+    - cafe06000b0b2b08 # Low Power Tag 5
+    - cafe06000b0b2809 # Low Power Tag 6
+    - cafe06000b0b2909 # Low Power Tag 7
+    - cafe06000b0b2907 # Low Power Tag 8
+    - cafe060087034838 # Mount 1
+    - cafe060087253222 # Mount 2
+    - cafe060087084116 # Mount 3
+    - cafe060087202315 # Mount 4
+    - cafe060087074753 # Mount 5
+    - cafe060087021235 # Mount 6

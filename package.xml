@@ -1,0 +1,23 @@
+<?xml version="1.0"?>
+<package format="2">
+  <name>atlas_config_example</name>
+  <version>0.0.1</version>
+  <description>The atlas_config_example package</description>
+
+  <maintainer email="janis.tiemann@tu-dortmund.de">Janis Tiemann</maintainer>
+  <maintainer email="yehyaelmasry2020@u.northwestern.edu">Yehya Elmasry</maintainer>
+
+  <license>BSD</license>
+
+  <author email="janis.tiemann@tu-dortmund.de">Janis Tiemann</author>
+  <author email="yehyaelmasry2020@u.northwestern.edu">Yehya Elmasry</author>
+
+  <buildtool_depend>catkin</buildtool_depend>
+
+
+  <!-- The export tag contains other, unspecified, tags -->
+  <export>
+    <!-- Other tools can request additional information be placed here -->
+
+  </export>
+</package>

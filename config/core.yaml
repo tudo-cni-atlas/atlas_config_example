@@ -1,0 +1,56 @@
+# Flw config with 1 sync anchor and 8 passive anchors
+
+channelConfig: 9
+tdoa:
+    slotDuration: 0x1dc13
+    syncPeriod: 0x8
+
+anchor:
+      cafe030000000001:
+        port: /dev/ttyATLAS01
+        mode: 3
+        tdoaSyncEui: cafe030000000001
+        tdoaSyncOffset: 0
+        randomAccessSlots: 4
+      cafe020000000002:
+        port: /dev/ttyATLAS02
+        mode: 2
+        tdoaSyncEui: cafe030000000001
+        tdoaSyncOffset: 0
+      cafe020000000003:
+        port: /dev/ttyATLAS03
+        mode: 2
+        tdoaSyncEui: cafe030000000001
+        tdoaSyncOffset: 0
+      cafe020000000004:
+        port: /dev/ttyATLAS04
+        mode: 2
+        tdoaSyncEui: cafe030000000001
+        tdoaSyncOffset: 0
+      cafe020000000005:
+        port: /dev/ttyATLAS05
+        mode: 2
+        tdoaSyncEui: cafe030000000001
+        tdoaSyncOffset: 0
+      cafe020000000006:
+        port: /dev/ttyATLAS06
+        mode: 2
+        tdoaSyncEui: cafe030000000001
+        tdoaSyncOffset: 0
+      cafe020000000007:
+        port: /dev/ttyATLAS07
+        mode: 2
+        tdoaSyncEui: cafe030000000001
+        tdoaSyncOffset: 0        
+      cafe020000000008:
+        port: /dev/ttyATLAS08
+        mode: 2
+        tdoaSyncEui: cafe030000000001
+        tdoaSyncOffset: 0
+      cafe020000000009:
+        port: /dev/ttyATLAS09
+        mode: 2
+        tdoaSyncEui: cafe030000000001
+        tdoaSyncOffset: 0
+
+

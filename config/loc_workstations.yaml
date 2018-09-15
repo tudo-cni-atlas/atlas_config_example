@@ -1,0 +1,33 @@
+# Flw config with 1 sync anchor and 8 passive anchors
+
+# extended kalman filter configuration
+# choose if 2D or 3D by setting dimensions to either 2 or 3
+ekf:
+    dimensions: 2
+    processNoise: 2.4
+    measurementVariance: 0.001
+    initialInterval: 0.04
+    initialVarianceDelta: 100.0
+    initialVariance: 100.0
+    initialPosition: [0, 0, 1.5]
+    outlierThreshold: 20.0
+    outlierThresholdDelta: 0.5
+    imu: False
+    sqd: False
+    minX: -8
+    maxX: 17
+    minY: -8
+    maxY: 8
+    minZ: 0.0
+    maxZ: 6.0
+
+orientationOffset: [0.0, 0.0, 2.0] # Tait-Bryan Euler angle in rad
+
+whitelist:
+    - cafe060087103131 # Battery Pack Tag 1
+    - cafe060087121551 # Battery Pack Tag 2
+    - cafe060087092739 # Mount 7
+    - cafe060087081425 # Mount 8
+    - cafe060067156038 # Mount 9
+    - cafe060087075250 # Mount 10
+    

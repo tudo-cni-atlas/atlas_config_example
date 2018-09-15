@@ -1,0 +1,174 @@
+# Default configurations for tags
+fast:
+
+##################################################
+#####################ROBOTS#######################
+##################################################
+  # Robot Tag 1
+  cafe060087204813:
+    enable: true
+    sync_frequency: 14
+    transmit_frequency: 6
+
+  # Robot Tag 2
+  cafe060087173325:
+    enable: true
+    sync_frequency: 14
+    transmit_frequency: 6
+
+  # Robot Tag 3
+  cafe060087095218:
+    enable: true
+    sync_frequency: 14
+    transmit_frequency: 6
+
+##################################################
+####################Helmets#######################
+##################################################
+  # Helmet 1
+  cafe060018182c36:
+    enable: true
+    sync_frequency: 12
+    transmit_frequency: 4
+
+  # Helmet 2
+  cafe060007072725:
+    enable: true
+    sync_frequency: 12
+    transmit_frequency: 4
+
+##################################################
+#####################BOXES########################
+##################################################
+
+  # Low Power Tag 1
+  cafe060009092122:
+    enable: true
+    sync_frequency: 14
+    transmit_frequency: 8
+
+  # Low Power Tag 2
+  cafe06000b0b1009:
+    enable: true
+    sync_frequency: 14
+    transmit_frequency: 8
+
+  # Low Power Tag 3
+  cafe06000b0b2f09:
+    enable: true
+    sync_frequency: 14
+    transmit_frequency: 8
+
+  # Low Power Tag 4
+  cafe06000b0b2408:
+    enable: true
+    sync_frequency: 14
+    transmit_frequency: 8
+
+  # Low Power Tag 5
+  cafe06000b0b2b08:
+    enable: true
+    sync_frequency: 14
+    transmit_frequency: 8
+
+  # Low Power Tag 6
+  cafe06000b0b2809:
+    enable: true
+    sync_frequency: 14
+    transmit_frequency: 8
+
+  # Low Power Tag 7
+  cafe06000b0b2909:
+    enable: true
+    sync_frequency: 14
+    transmit_frequency: 8
+
+  # Low Power Tag 8
+  cafe06000b0b2907:
+    enable: true
+    sync_frequency: 14
+    transmit_frequency: 8  
+
+  # Mount 1
+  cafe060087034838:
+    enable: true
+    sync_frequency: 14
+    transmit_frequency: 8
+
+  # Mount 2
+  cafe060087253222:
+    enable: true
+    sync_frequency: 14
+    transmit_frequency: 8
+
+  # Mount 3
+  cafe060087084116:
+    enable: true
+    sync_frequency: 14
+    transmit_frequency: 8
+
+  # Mount 4
+  cafe060087202315:
+    enable: true
+    sync_frequency: 14
+    transmit_frequency: 8
+
+  # Mount 5
+  cafe060087074753:
+    enable: true
+    sync_frequency: 14
+    transmit_frequency: 8
+
+  # Mount 6
+  cafe060087021235:
+    enable: true
+    sync_frequency: 14
+    transmit_frequency: 8
+
+##################################################
+#####################BALL#######################
+##################################################  
+  # Low Power Tag 9
+  cafe06000b0b1809:
+    enable: true
+    sync_frequency: 12
+    transmit_frequency: 4  
+
+##################################################
+#####################STATIC#######################
+##################################################  
+  # Battery Pack Tag 1
+  cafe060087103131:
+    enable: true
+    sync_frequency: 14
+    transmit_frequency: 6
+
+  # Battery Pack Tag 2
+  cafe060087121551:
+    enable: true
+    sync_frequency: 14
+    transmit_frequency: 6
+
+  # Mount 7
+  cafe060087092739:
+    enable: true
+    sync_frequency: 14
+    transmit_frequency: 6 
+
+  # Mount 8
+  cafe060087081425:
+    enable: true
+    sync_frequency: 14
+    transmit_frequency: 6  
+
+  # Mount 9
+  cafe060067156038:
+    enable: true
+    sync_frequency: 14
+    transmit_frequency: 6  
+
+  # Mount 10
+  cafe060087075250:
+    enable: true
+    sync_frequency: 14
+    transmit_frequency: 6

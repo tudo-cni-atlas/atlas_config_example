@@ -1,0 +1,28 @@
+# Flw config with 1 sync anchor and 8 passive anchors
+
+# extended kalman filter configuration
+# choose if 2D or 3D by setting dimensions to either 2 or 3
+ekf:
+    dimensions: 2
+    processNoise: 4.8
+    measurementVariance: 0.001
+    initialInterval: 0.01
+    initialVarianceDelta: 100.0
+    initialVariance: 100.0
+    initialPosition: [0, 0, 2.0]
+    outlierThreshold: 20.0
+    outlierThresholdDelta: 0.5
+    imu: False
+    sqd: False
+    minX: -8
+    maxX: 17
+    minY: -8
+    maxY: 8
+    minZ: 1.5
+    maxZ: 2.1
+
+orientationOffset: [0.0, 0.0, 2.0] # Tait-Bryan Euler angle in rad
+
+whitelist:
+    - cafe060018182c36 # Helmet 1
+    - cafe060007072725 # Helmet 2

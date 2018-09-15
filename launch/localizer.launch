@@ -1,0 +1,14 @@
+<?xml version="1.0"?>
+<launch>
+    <rosparam ns="atlas/loc_helmets" command="load" file="$(find atlas_config_flw)/config/loc_helmets.yaml"/>
+    <node name="loc_helmets" ns="atlas/" pkg="atlas_loc" type="atlas_loc_node" output="screen"/>
+
+    <rosparam ns="atlas/loc_boxes" command="load" file="$(find atlas_config_flw)/config/loc_boxes.yaml"/>
+    <node name="loc_boxes" ns="atlas/" pkg="atlas_loc" type="atlas_loc_node" output="screen"/>
+
+    <rosparam ns="atlas/loc_robots" command="load" file="$(find atlas_config_flw)/config/loc_robots.yaml"/>
+    <node name="loc_robots" ns="atlas/" pkg="atlas_loc" type="atlas_loc_node" output="screen"/>
+
+    <rosparam ns="atlas/loc_workstations" command="load" file="$(find atlas_config_flw)/config/loc_workstations.yaml"/>
+    <node name="loc_workstations" ns="atlas/" pkg="atlas_loc" type="atlas_loc_node" output="screen"/>
+</launch>

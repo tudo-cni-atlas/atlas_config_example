@@ -1,0 +1,4 @@
+<?xml version="1.0"?>
+<launch>
+    <node name="core" ns="atlas/" pkg="atlas_core" type="atlas_core_node" output="screen"/>
+</launch>

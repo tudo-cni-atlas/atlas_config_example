@@ -64,7 +64,9 @@ Start the ATLAS visualization node:
 
 	roslaunch launch/visualizer.launch
 
-Replaying the raw TOAs and ground-truth messages (Unzip the bags/2018-09-10-14-27-04.zip first and place it in the bags folder):
+Unzip the bags/2018-09-10-14-27-04.zip first and place the .bag file in the bags folder.
+
+The replay the raw TOAs and ground-truth messages:
 
 	rosbag play -s 35 bags/2018-09-10-14-27-04.bag
 

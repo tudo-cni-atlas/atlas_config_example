@@ -2,7 +2,6 @@
 <launch>
     <rosparam ns="atlas/" command="load" file="$(find atlas_config_example)/config/core.yaml"/>
     <rosparam ns="atlas/" command="load" file="$(find atlas_config_example)/config/pos.yaml"/>
-    <rosparam ns="atlas/" command="load" file="$(find atlas_config_example)/config/trajectory.yaml"/>
 	<rosparam ns="atlas/" command="load" file="$(find atlas_config_example)/config/tags.yaml"/>
     <rosparam ns="atlas/" command="load" file="$(find atlas_config_example)/config/slots.yaml"/>
 </launch>

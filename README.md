@@ -51,25 +51,30 @@ Start a roscore:
 
 Load the required config files:
 
-	roslaunch launch/config.launch
+	source devel/setup.bash
+	roslaunch atlas_config_flw config.launch
 
 
 Start the ATLAS core node (Taking the TOA messages and performing TDOA sample assembly):
 
-	roslaunch launch/core.launch
+	source devel/setup.bash
+	roslaunch atlas_config_flw core.launch
 
 Start the ATLAS localization node(s) (Taking the TDOA samples and calculating positions):
 
-	roslaunch launch/localizer.launch
+	source devel/setup.bash
+	roslaunch atlas_config_flw localizer.launch
 
 Start the ATLAS visualization node:
 
-	roslaunch launch/visualizer.launch
+	source devel/setup.bash
+	roslaunch atlas_config_flw visualizer.launch
 
 Unzip the bags/2018-09-10-14-27-04.zip first and place the .bag file in the bags folder.
 
 The replay the raw TOAs and ground-truth messages:
 
+	source devel/setup.bash
 	rosbag play -s 35 bags/2018-09-10-14-27-04.bag
 
 

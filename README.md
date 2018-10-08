@@ -75,7 +75,7 @@ Unzip the bags/2018-09-10-14-27-04.zip first and place the .bag file in the bags
 The replay the raw TOAs and ground-truth messages:
 
 	source devel/setup.bash
-	rosbag play -s 35 bags/2018-09-10-14-27-04.bag
+	rosbag play -s 35 src/atlas_config_example/bags/2018-09-10-14-27-04.bag
 
 
 [ROS]: http://www.ros.org

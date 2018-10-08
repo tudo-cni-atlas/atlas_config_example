@@ -1,8 +1,8 @@
 <?xml version="1.0"?>
 <launch>
-    <rosparam ns="atlas/" command="load" file="$(find atlas_config_flw)/config/core.yaml"/>
-    <rosparam ns="atlas/" command="load" file="$(find atlas_config_flw)/config/pos.yaml"/>
-    <rosparam ns="atlas/" command="load" file="$(find atlas_config_flw)/config/trajectory.yaml"/>
-	<rosparam ns="atlas/" command="load" file="$(find atlas_config_flw)/config/tags.yaml"/>
-    <rosparam ns="atlas/" command="load" file="$(find atlas_config_flw)/config/slots.yaml"/>
+    <rosparam ns="atlas/" command="load" file="$(find atlas_config_example)/config/core.yaml"/>
+    <rosparam ns="atlas/" command="load" file="$(find atlas_config_example)/config/pos.yaml"/>
+    <rosparam ns="atlas/" command="load" file="$(find atlas_config_example)/config/trajectory.yaml"/>
+	<rosparam ns="atlas/" command="load" file="$(find atlas_config_example)/config/tags.yaml"/>
+    <rosparam ns="atlas/" command="load" file="$(find atlas_config_example)/config/slots.yaml"/>
 </launch>

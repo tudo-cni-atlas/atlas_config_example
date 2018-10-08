@@ -52,23 +52,23 @@ Start a roscore:
 Load the required config files:
 
 	source devel/setup.bash
-	roslaunch atlas_config_flw config.launch
+	roslaunch atlas_config_example config.launch
 
 
 Start the ATLAS core node (Taking the TOA messages and performing TDOA sample assembly):
 
 	source devel/setup.bash
-	roslaunch atlas_config_flw core.launch
+	roslaunch atlas_config_example core.launch
 
 Start the ATLAS localization node(s) (Taking the TDOA samples and calculating positions):
 
 	source devel/setup.bash
-	roslaunch atlas_config_flw localizer.launch
+	roslaunch atlas_config_example localizer.launch
 
 Start the ATLAS visualization node:
 
 	source devel/setup.bash
-	roslaunch atlas_config_flw visualizer.launch
+	roslaunch atlas_config_example visualizer.launch
 
 Unzip the bags/2018-09-10-14-27-04.zip first and place the .bag file in the bags folder.
 

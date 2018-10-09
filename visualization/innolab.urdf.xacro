@@ -1,12 +1,12 @@
 <?xml version="1.0"?>
 <!-- Kinematic model, simplified visual, no collisions -->
 <robot name="innolab" xmlns:xacro="http://www.ros.org/wiki/xacro">
-<xacro:include filename="$(find atlas_config_flw)/visualization/materials.xacro" />
+<xacro:include filename="$(find atlas_config_example)/visualization/materials.xacro" />
 
   <link name="base_link">
    <visual>
       <geometry>
-        <mesh scale=".001 .001 .001" filename="file://$(find atlas_config_flw)/visualization/innolab.dae"/>
+        <mesh scale=".001 .001 .001" filename="file://$(find atlas_config_example)/visualization/innolab.dae"/>
       </geometry>
       <origin xyz="-12.5 7.9 0"/>
    </visual>

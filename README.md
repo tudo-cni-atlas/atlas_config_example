@@ -4,7 +4,8 @@
 
 This is a configuration example for the the [ATLAS Real-Time Localization System (RTLS)](https://github.com/tudo-cni-atlas/atlas_rtls/).
 
-[![DOI](https://zenodo.org/badge/148910662.svg)](https://zenodo.org/badge/latestdoi/148910662)
+[![DOI](https://zenodo.org/badge/DOI/10.5281/zenodo.2579940.svg)](https://doi.org/10.5281/zenodo.2579940)
+
 
 ### License
 

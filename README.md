@@ -17,6 +17,23 @@ The source code of the localization is released under [BSD 3-Clause license](LIC
 
 **Affiliation:** Communication Networks Institute (CNI), TU Dortmund University
 
+### Publications
+
+If you use this work in an academic context, please cite the following publication(s):
+
+* J. Tiemann, Y. Elmasry, L. Koring, C. Wietfeld, **ATLAS FaST: Fast and Simple Scheduled TDOA for Reliable Ultra-Wideband Localization**, In IEEE International Conference on Robotics and Automation (ICRA), Montréal, Canada, May 2019. (accepted for presentation). 
+
+        @InProceedings{Tiemann2019atlasfast,
+                Author = {Janis Tiemann and Yehya Elmasry and Lucas Koring and Christian Wietfeld},
+                Title = {ATLAS FaST: Fast and Simple Scheduled TDOA for Reliable Ultra-Wideband Localization},
+                Booktitle = {IEEE International Conference on Robotics and Automation (ICRA)},
+                Year = {2019},
+                Publishingstatus = {accepted for presentation},
+                Address = {Montréal, Canada},
+                Month = {May}
+        }
+
+
 The atlas_config_example package has been tested under [ROS] Kinetic and Ubuntu 16.04. This is research code, expect that it changes often and any fitness for a particular purpose is disclaimed.
 
 ![Example image](doc/viz.jpg)
